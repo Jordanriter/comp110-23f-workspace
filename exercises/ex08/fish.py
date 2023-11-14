@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 """Fish Class."""
 
 __author__ = "730388067"
 
 =======
+=======
+>>>>>>> a515408 (progress)
 <<<<<<< HEAD
 """File to define Fish class"""
 >>>>>>> 5bdd356 (Progress in 110)
@@ -32,4 +35,16 @@ class Fish:
         """Represting fish."""
         self.age = age
 >>>>>>> 82a71f9 (Progress in 110)
+<<<<<<< HEAD
 >>>>>>> 5bdd356 (Progress in 110)
+=======
+=======
+"""Fish Class."""
+
+
+class Fish:
+    def __init__(self, age: int = 0):
+        """Represents fish."""
+        self.age = age
+>>>>>>> ca16449 (progress)
+>>>>>>> a515408 (progress)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 """River Class."""
 
 __author__ = "730388067"
@@ -6,6 +7,8 @@ __author__ = "730388067"
 from exercises.ex08.bear import Bear  
 from exercises.ex08.fish import Fish  
 =======
+=======
+>>>>>>> a515408 (progress)
 <<<<<<< HEAD
 """File to define River class"""
 >>>>>>> 5bdd356 (Progress in 110)
@@ -113,19 +116,46 @@ class River:
 """River Simulation."""
 
 from bear import Bear 
+=======
+"""River Class."""
+
+
+from bear import Bear  
+>>>>>>> ca16449 (progress)
 from fish import Fish  
 
 
 class River:
+<<<<<<< HEAD
     """Class to represent river."""
+=======
+>>>>>>> ca16449 (progress)
     day: int
     bears: list
     fish: list
 
+<<<<<<< HEAD
     def __init__(self, num_fish: int, num_bears: int):
         """Representing thr river."""
         self.day = 0
         self.fish = [Fish() for _ in range(num_fish)]
         self.bears = [Bear(age=0, hunger_score=0) for _ in range(num_bears)]
 >>>>>>> 82a71f9 (Progress in 110)
+<<<<<<< HEAD
 >>>>>>> 5bdd356 (Progress in 110)
+=======
+=======
+    def __init__(self, num_fish, num_bears):
+        """Initialize self.fish to contain num_fish many Fish."""
+        """Initialize self.bears to contain num_bears many Bears."""
+        """Initialize self.day to be 0."""
+        self.day = 0
+        self.fish = [Fish(age=1) for _ in range(num_fish)]  
+        self.bears = [Bear(age=2, hunger_score=0) for _ in range(num_bears)] 
+
+    def view_river(self):
+        print(f"~~~ Day {self.day}: ~~~")
+        print(f"Fish population: {len(self.fish)}")
+        print(f"Bear population: {len(self.bears)}")
+>>>>>>> ca16449 (progress)
+>>>>>>> a515408 (progress)
