@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 """Bear Class."""
 
 __author__ = "730388067"
 
 =======
+=======
+>>>>>>> e6dac0c (Progress in 110)
 <<<<<<< HEAD
 """File to define Bear class"""
 >>>>>>> 5bdd356 (Progress in 110)
@@ -36,4 +39,9 @@ class Bear:
         self.age = age
         self.hunger_score = hunger_score
 >>>>>>> 82a71f9 (Progress in 110)
+<<<<<<< HEAD
 >>>>>>> 5bdd356 (Progress in 110)
+=======
+=======
+>>>>>>> fee78d5 (Progress in 110)
+>>>>>>> e6dac0c (Progress in 110)
