@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 """River Class."""
 
 __author__ = "730388067"
 
 from exercises.ex08.bear import Bear  
 from exercises.ex08.fish import Fish  
+=======
+<<<<<<< HEAD
+"""File to define River class"""
+>>>>>>> 5bdd356 (Progress in 110)
 
 
 class River:
@@ -46,6 +51,7 @@ class River:
         """A bear age is > 5 it should be removed from bears."""
         fish_kept = []
         for fish in self.fish:
+<<<<<<< HEAD
             if fish.age <= 3:
                 fish_kept.append(fish)
         self.fish = fish_kept
@@ -88,3 +94,38 @@ class River:
             for _ in range(4):
                 new_fish.append(Fish(age=0))
         self.fish.extend(new_fish)
+=======
+            fish.one_day()
+        # Simulate Bear's eating
+        self.bears_eating()
+        # Remove hungry Bear's from River
+        self.check_hunger()
+        # Remove old Fish and Bear's from River
+        self.check_ages()
+        # Simulate Fish repopulation
+        self.repopulate_fish()
+        # Simulate Bear repopulation
+        self.repopulate_bears()
+        # Visualize River
+        self.view_river()
+            
+=======
+"""River Simulation."""
+
+from bear import Bear 
+from fish import Fish  
+
+
+class River:
+    """Class to represent river."""
+    day: int
+    bears: list
+    fish: list
+
+    def __init__(self, num_fish: int, num_bears: int):
+        """Representing thr river."""
+        self.day = 0
+        self.fish = [Fish() for _ in range(num_fish)]
+        self.bears = [Bear(age=0, hunger_score=0) for _ in range(num_bears)]
+>>>>>>> 82a71f9 (Progress in 110)
+>>>>>>> 5bdd356 (Progress in 110)
